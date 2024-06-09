@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>
+    {% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{
+    site.title }}
+  </title>
+  <meta name="robots" content="noindex">
+  <script src="https://cdn.usefathom.com/script.js" data-site="{{ site.fathom_analytics }}" defer></script>
+</head>
+<body>
+  {{ content }}
+</body>
+</html>

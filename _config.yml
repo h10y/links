@@ -1,0 +1,15 @@
+title: Jekyll URL Shortener
+description: URL Shorteners with Jekyll and GitHub Pages.
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE.md"]
+timezone: America/Edmonton
+encoding: UTF-8
+fathom_analytics: PASYTARS
+
+permalink: /:slug/
+
+plugins:
+  - jekyll-redirect-from
+
+#site.url: https://h10y.10
+#site.baseurl: /
